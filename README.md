@@ -27,7 +27,7 @@ Example Media URL from data set for a product:
 https://i8.amplience.net/s/willow/072571
 ```
 
-Example Tranformation of media for a thumbnail:
+Example Transformation of media for a thumbnail:
 
 ```
 https://i8.amplience.net/s/willow/072571?w=84&qlt=65&unsharp=0,1,1,7
