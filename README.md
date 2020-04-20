@@ -6,6 +6,34 @@
 
 Before starting the import, make sure you have access to the [Merchant Center](https://mc.commercetools.com). You will also need to run the application in this repository. Check that you meet the [requirements](#requirements) and [clone](https://help.github.com/articles/cloning-a-repository/) this repository to your computer.
 
+## Amplience Dynamic Media
+[![Amplience Dynamic Content](media/header.png)](https://amplience.com/dynamic-content)
+
+All media references in the default catalogue have been updated to point Amplience Media sets. This enables:
+1. Headless approach to media
+2. Request of media at any size, any fomat
+3. SEO friendly naming for media
+4. Easy integration with [Amplience Viewer Kit](https://github.com/amplience/viewer-kit)
+
+### Dynamic Media Documentation
+- [Overview](https://amplience.com/products-services/dynamic-media/)
+- [API Reference](https://docs.amplience.net/dynamicmedia/dmapireference.html)
+- [Dynamic Media Playground](http://playground.amplience.com/di/app/#/intro)
+
+### Example URL
+Example Media URL from data set for a product:
+
+    ```
+        https://i8.amplience.net/s/willow/072571
+    ```
+
+Example Tranformation of media for a thumbnail:
+
+    ```
+        https://i8.amplience.net/s/willow/072571?w=84&qlt=65&unsharp=0,1,1,7
+    ```
+
+
 ### 1. Create your project
 
 Open the [Merchant Center](https://mc.commercetools.com) and create an empty project (without sample data).
